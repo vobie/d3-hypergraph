@@ -1,0 +1,56 @@
+<!doctype html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta co
+  ntent="utf-8" http-equiv="encoding">
+  <script src="d3.v5.js"></script>
+  <script src="lodash.js"></script>
+  <style>
+
+    body {
+      padding:0 !important;
+      margin:0 !important;
+    }
+    body {
+      position:absolute;
+      width:100%;
+      height:100%;
+      /*border:2px solid rgba(0,0,255,1);*/
+
+    }
+    #hyper-container {
+
+      box-sizing:border-box !important;
+      width:100%;
+      height:100%;
+      /*border:2px solid rgba(0,255,0,1);*/
+    }
+    #hyper-container > svg {
+      width:100%;
+      height:100%;
+      display:block;
+    }
+
+    /* Background, coordinate system etc */
+    .hypervis .group-angular-axis line {
+      stroke:rgba(0,0,0,0.2);
+      stroke-width:1;
+    }
+
+    #hyper-container .vis-tooltip {
+      background:#000000;
+      color:#ffffff;
+      border-radius: 5px;
+      padding:10px;
+    }
+
+
+  </style>
+  <title>Hypergraph visualization</title>
+</head>
+<body>
+<div id="hyper-container">
+</div>
+<script type="module" src="./lib/Visualization.js"></script>
+
+</body>
