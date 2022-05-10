@@ -1,4 +1,6 @@
-# D3 Hypergraph
+![d3-hypergraph-screen](https://user-images.githubusercontent.com/9901298/167585529-bd574959-ecf1-459d-9cf7-b674cae9b5f5.png)
+
+# D3 Hypergraph Visualizer
 
 1. [Interactive features](docs/interactive_features.md)
 2. [Maths](docs/maths.md)
